@@ -1,3 +1,8 @@
 <!-- Only imports features other modules -->
 <app-fonts-kkboggy></app-fonts-kkboggy>
-<app-navindex-kkboggy></app-navindex-kkboggy>
+<div  *ngIf="navIndexHome">
+  <app-navindex-kkboggy></app-navindex-kkboggy>
+</div>
+<div *ngIf="navUserHome">
+  <app-navhome-kkboggy></app-navhome-kkboggy>
+</div>

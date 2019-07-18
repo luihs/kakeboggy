@@ -5,13 +5,15 @@ import { FontsKkboggyComponent } from './component/fonts-kkboggy/fonts-kkboggy.c
 import { NavindexKkboggyComponent } from './component/navindex-kkboggy/navindex-kkboggy.component';
 import { NavhomeKkboggyComponent } from './component/navhome-kkboggy/navhome-kkboggy.component';
 import { ContainerKkboggyComponent } from './component/container-kkboggy/container-kkboggy.component';
+import { HomeuserKkboggyComponent } from './component/homeuser-kkboggy/homeuser-kkboggy.component';
 
 const routes: Routes = [
  { path: '', component: HomeKkboggyComponent },
  { path: 'fonts', component: FontsKkboggyComponent },
  { path: 'navindex', component: NavindexKkboggyComponent },
  { path: 'navhome', component: NavhomeKkboggyComponent },
- { path: 'containerkkboggy', component: ContainerKkboggyComponent } 
+ { path: 'containerkkboggy', component: ContainerKkboggyComponent },
+ { path: 'userhome', component: HomeuserKkboggyComponent}
 ];
 
 @NgModule({

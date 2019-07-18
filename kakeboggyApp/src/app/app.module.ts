@@ -8,6 +8,8 @@ import { FontsKkboggyComponent } from './component/fonts-kkboggy/fonts-kkboggy.c
 import { NavindexKkboggyComponent } from './component/navindex-kkboggy/navindex-kkboggy.component';
 import { NavhomeKkboggyComponent } from './component/navhome-kkboggy/navhome-kkboggy.component';
 import { ContainerKkboggyComponent } from './component/container-kkboggy/container-kkboggy.component';
+import { HomeuserKkboggyComponent } from './component/homeuser-kkboggy/homeuser-kkboggy.component';
+import { CalendarKkboggyComponent } from './component/calendar-kkboggy/calendar-kkboggy.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ContainerKkboggyComponent } from './component/container-kkboggy/contain
     FontsKkboggyComponent,
     NavindexKkboggyComponent,
     NavhomeKkboggyComponent,
-    ContainerKkboggyComponent
+    ContainerKkboggyComponent,
+    HomeuserKkboggyComponent,
+    CalendarKkboggyComponent
   ],
   imports: [
     BrowserModule,

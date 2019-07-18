@@ -10,6 +10,11 @@ export class HomeKkboggyComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.setIndex();
   }
 
+  setIndex(){
+    sessionStorage.setItem('navbar', 'index');
+    console.log(sessionStorage.getItem('navbar'));
+  }
 }
