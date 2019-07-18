@@ -6,6 +6,7 @@ import { NavindexKkboggyComponent } from './component/navindex-kkboggy/navindex-
 import { NavhomeKkboggyComponent } from './component/navhome-kkboggy/navhome-kkboggy.component';
 import { ContainerKkboggyComponent } from './component/container-kkboggy/container-kkboggy.component';
 import { HomeuserKkboggyComponent } from './component/homeuser-kkboggy/homeuser-kkboggy.component';
+import { CalendarKkboggyComponent } from './component/calendar-kkboggy/calendar-kkboggy.component';
 
 const routes: Routes = [
  { path: '', component: HomeKkboggyComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
  { path: 'navindex', component: NavindexKkboggyComponent },
  { path: 'navhome', component: NavhomeKkboggyComponent },
  { path: 'containerkkboggy', component: ContainerKkboggyComponent },
- { path: 'userhome', component: HomeuserKkboggyComponent}
+ { path: 'userhome', component: HomeuserKkboggyComponent },
+ { path: 'calendar', component: CalendarKkboggyComponent }
 ];
 
 @NgModule({
